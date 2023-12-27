@@ -1,0 +1,18 @@
+.cyborg-navbar{
+    min-height: 100px;
+}
+.img-prof{
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.nav-link:hover , .nav-link:focus{
+    color:  var(--color-primary) ;
+}
+.profile{
+    background-color: var(--color-dark);
+    border-radius: var(--border-radius);
+}
+.profile:hover , .profile:focus{
+    background-color: var(--color-primary);
+    color: var(--color-light);
+}

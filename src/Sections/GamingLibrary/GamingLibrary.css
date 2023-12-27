@@ -1,0 +1,10 @@
+.library-items{
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: calc(var(--border-radius)/2);
+    background-color: var(--color-dark);
+    padding: calc(var(--padding-primary)/2);
+}
+.L{
+    color: var(--color-primary);
+}

@@ -1,0 +1,28 @@
+.browse{
+    justify-content: space-between;
+}
+.featured-games ,.top-downloads{
+    background-color: var(--color-darkest);
+    border-radius: var(--border-radius);
+    padding: calc(var(--padding-primary)/2);
+}
+.library-items{
+    background-color: transparent;
+    text-align: center;
+}
+.featur-game{
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+.live-streams{
+    text-align: center;
+}
+.featured{
+    position: relative;
+}
+.lien{
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translate(-50%);
+}

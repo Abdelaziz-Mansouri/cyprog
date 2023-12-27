@@ -1,0 +1,109 @@
+.most-popular-item{
+    flex: 1 25%;
+}
+.card-wrapper{
+    background-color: var(--color-dark);
+    border-radius: calc(var(--border-radius)/2);
+    padding: calc(var(--padding-primary)/2);
+    margin: calc(var(--margin-primary)/5);
+}
+.most-popular-item-image{
+    width: 100%;
+    border-radius: calc(var(--border-radius)/4);
+    margin-bottom: calc(var(--margin-primary)/2);
+}
+.most-popular-item-content{
+    display: flex;
+    justify-content: space-between;
+}
+.most-popular-item-title{
+    font-size: 14px;
+    line-height: 1.5rem;
+}
+.star{
+    color: yellow;
+}
+.vid{
+    position: relative;
+}
+.most-popular-item li{
+    color: var(--color-light);
+}
+.most-popular-item h4 span , .most-popular-item h3 span{
+    font-size: 14px;
+    color: #666;
+}
+.play{
+    display: none;
+}
+.vid .play{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+    padding: 14px 18px;
+    border-radius: 50%;
+    background-color: var(--color-light);
+    color: var(--color-primary);
+    display: block !important;
+}
+.feat .play{
+    transform: translate(-50%, -50%);
+}
+.game-card{
+    padding: 0;
+    background-color: transparent;
+    position: relative;
+}
+.game-card .most-popular-item-image{
+    border-radius: var(--border-radius);
+}
+.live-card{
+    border: 1px solid #444;
+    text-align: start;
+}
+.live-card .service-image{
+    border-radius: 50%;
+}
+.live-title{
+    font-size: 20px;
+    line-height: 2rem;
+}
+.image-avatar{
+    border-radius: 50%;
+    height: 50px;
+}
+.feat .feat-image{
+    height: 100%;
+    width:100%;
+    border-radius: var(--border-radius);
+}
+.details{
+    background-color: transparent;
+    border: none;
+}
+.detail{
+    border-radius: var(--border-radius);
+    width: 100%;
+}
+.str-hov{
+    position: relative;
+    z-index: 2;
+    background-color: var(--color-darkest);
+}
+.streaming-hov{
+    background-color: var(--color-darkest);
+    border-radius: var(--border-radius);
+    position: absolute;
+    top: 350px;
+    left: 10%;
+    font-size: 15px;
+    z-index: 1;
+    transition: all .3s;
+    width: fit-content;
+    margin: 0 auto;
+}
+.hoving-streams{
+    top: 250px;
+    left:10%
+}

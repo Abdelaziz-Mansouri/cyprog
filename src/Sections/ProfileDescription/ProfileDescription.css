@@ -1,0 +1,24 @@
+.profile-description{
+    border-radius: var(--border-radius);
+    background-color: var(--color-darkest);
+    padding: var(--padding-primary);
+}
+.profile-person-videos{
+    padding: var(--padding-primary) 0 0;
+}
+.profile-person-video{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.load-more{
+    padding-top: var(--padding-primary);
+    text-align: center;
+}
+.library-items{
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: calc(var(--border-radius)/2);
+    background-color: var(--color-dark);
+    padding: calc(var(--padding-primary)/2);
+}

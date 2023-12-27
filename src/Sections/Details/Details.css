@@ -1,0 +1,7 @@
+.fortnit-det , .all-games {
+    background-color: var(--color-darkest);
+    border-radius: var(--border-radius);
+}
+.card-body{
+    background-color: var(--color-dark);
+}
