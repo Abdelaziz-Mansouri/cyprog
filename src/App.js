@@ -14,7 +14,7 @@ const App= ()=>{
                 <Header />
                 <Container>
                     <Routes>
-                        <Route path='/' element={<Home/>}/>
+                        <Route path='/cyprog' element={<Home/>}/>
                         <Route path='/Profile' element={<Profile/>}/>
                         <Route path='/Browse' element={<Browse/>}/>
                         <Route path='/Streams' element={<StreamsPage/>}/>
