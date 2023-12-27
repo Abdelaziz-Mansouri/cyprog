@@ -18,7 +18,7 @@ const Header= ()=>{
                     <div className="collapse navbar-collapse" id="mainmenu">
                         <ul className="navbar-nav ms-auto">
                             <NavItem>
-                                <Link to='/' className="nav-link">Home</Link>
+                                <Link to='/cyprog' className="nav-link">Home</Link>
                             </NavItem>
                             <NavItem><Link to="/Browse" className="nav-link">Browse</Link></NavItem>
                             <NavItemDrop>
